@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/data"
+    tools:context=".data">
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="190dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#008B5757"
+        android:text="Database"
+        android:textColor="#FFC900"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:hint="CLICK ON DATABASE"
+        android:textColor="#FFC900"
+        android:textColorHint="#FFC900"
+        android:textIsSelectable="false"
+        android:textSize="24sp" />
+
+</RelativeLayout>

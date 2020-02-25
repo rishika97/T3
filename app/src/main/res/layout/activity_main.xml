@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="auto"
+    android:focusableInTouchMode="false"
+    android:gravity="center|center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="198dp"
+        android:layout_height="189dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="94dp"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="7dp"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/o1" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_below="@+id/iv1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="234dp"
+        app:srcCompat="@drawable/o1" />
+
+    <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="232dp"
+        app:srcCompat="@drawable/x" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="136dp"
+        android:width="200dp"
+        android:text="WELCOME!!!"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="36sp" />
+</RelativeLayout>
